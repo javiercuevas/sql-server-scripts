@@ -1,0 +1,5 @@
+CREATE DATABASE CoFPI
+ON 
+(FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQL2012\MSSQL\DATA\CoFPI.mdf'), 
+(FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL11.SQL2012\MSSQL\DATA\CoFPI_log.ldf') 
+FOR ATTACH;
