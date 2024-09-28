@@ -1,0 +1,5 @@
+SELECT configuration_id, name, value
+FROM sys.database_scoped_configurations
+WHERE name = N'OPTIMIZE_FOR_AD_HOC_WORKLOADS';
+
+ALTER DATABASE SCOPED CONFIGURATION SET OPTIMIZE_FOR_AD_HOC_WORKLOADS = ON

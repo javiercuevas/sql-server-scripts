@@ -1,0 +1,1 @@
+exec xp_readerrorlog 0, 1, 'keyword', null
